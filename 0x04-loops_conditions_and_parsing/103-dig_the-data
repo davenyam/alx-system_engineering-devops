@@ -2,7 +2,7 @@
 # Parses an Apache log file and displays the number of occurrences, IP, and HTTP code for each visitor.
 
 LOG_FILE="apache-access.log"
-
+ 
 if [ ! -f "$LOG_FILE" ]; then
     echo "Log file $LOG_FILE not found!"
     exit 1
